@@ -1,0 +1,54 @@
+body {
+    background: peru;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+​
+a {
+    color: green;
+    background: white;
+}
+​
+​
+section {
+    color: violet;
+}
+​
+/* Acá quise poner un color marrón */
+body {
+    color: brown;
+}
+​
+h1 {
+    color: white;
+    font-size: 60px;
+}
+​
+.primerContenido {
+    background: #18ff76;
+    color: rgba(232, 106, 84, 0.65);
+    font-weight: bold;
+    width: 50px;
+    height: 100px;
+}
+​
+.alerta {
+    color: yellow;
+}
+​
+.color1 {
+    background: green;
+}
+​
+.color2 {
+    color: brown;
+}
+​
+.color3 {
+    color: burlywood;
+}
+
+
+
+
