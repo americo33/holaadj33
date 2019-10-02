@@ -1,0 +1,15 @@
+ul {
+  list-style-image: url('izquierda.png');
+  list-style-position: outside;
+}
+h1 {
+  font-display: verdana ;
+  font-size: 24;
+  color: saddlebrown;
+}
+h2 {
+  font-display: Verdana;
+  font-size: 20;
+  font-weight: 95;
+  font-stretch: semi-condensed;
+}

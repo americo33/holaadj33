@@ -10,3 +10,13 @@ body {font-family: Verdana;
         text-align: center;
         text-decoration: none;
         display: inline-block;}
+
+        a:hover, a:active {background-color: snow;
+            color: steelblue;
+            border: double;
+            border-color: steelblue;
+            padding: 14px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
