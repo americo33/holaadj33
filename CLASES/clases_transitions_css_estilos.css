@@ -1,0 +1,104 @@
+@keyframes mi-animacion {
+  0% {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+  }
+}
+
+@keyframes magia {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: violet;
+  }
+  75% {
+    background-color: goldenrod;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@keyframes tamano {
+  0% {
+    width: 10vw;
+    height: 10vh;
+  }
+  100% {
+    width: 20vw;
+    height: 20vh;
+  }
+}
+
+body {
+  animation: magia 100s infinite;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  animation: magia 100s infinite;
+  border: 2px solid blue;
+  width: 50vw;
+  height: 50vh;
+  padding: 20px;
+}
+
+.caja {
+  animation: tamano 3s 3;
+  animation-direction: alternate;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  /* animation: mi-animacion 10s;
+  animation-iteration-count: infinite; */
+  /* transition: width 0.5s linear, height 2s linear,
+    background 4s cubic-bezier(1, -0.75, 0, 2.18); */
+}
+
+.caja:hover {
+  /* width: 200px;
+  height: 200px;
+  background-color: green; */
+}
+
+.transform {
+  width: 100px;
+  height: 100px;
+  background-color: goldenrod;
+  transition: all 2.5s linear;
+}
+
+.transform:hover {
+  transform: scale(5);
+  /* transform: skew(90deg, 90deg); */
+}
+
+.texto {
+  transition: transform 2s 1s cubic-bezier(0.22, 0.61, 0.36, 1),
+    color 0.3s linear;
+}
+
+.texto:hover {
+  color: red;
+  /* font-size: 64px; */
+}
+
+.mi-iconito {
+  color: red;
+}
